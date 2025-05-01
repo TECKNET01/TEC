@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    a:link{
+        text-decoration: none;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    height: 120px;
+
+    .logo{
+        background-color: rebeccapurple;
+        margin-left: 50px;
+        border-radius: 15px;
+        height: 90px;
+        width: 120px;
+    }
+    .titulo{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+
+
+    menu{
+        position: fixed;
+        right: 10px;
+        
+        
+        a{
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 10px;
+            color: black;
+        
+        }
+        a:hover{
+            transition: 1s;
+            background-color: rgb(122, 122, 128);
+            color: bisque;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+        a:active{
+            transition: 0.1ms;
+            color: black;
+            background-color: rgb(9, 255, 0);
+        }
+    }
+}
+
